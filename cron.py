@@ -21,8 +21,9 @@
 # print(job)
 
 # while True:
-#     time.sleep(1)
 
+#     time.sleep(1)
+#modified code by shadab
 from apscheduler.schedulers.background import BackgroundScheduler
 from motivator import send_whatsapp_text, client, get_random_quote
 import pytz
